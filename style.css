@@ -1,0 +1,407 @@
+#promocode {
+    text-align: center;
+    padding: 3px;
+    background-color: #595959;
+    color: white;
+    font-family: 'Roboto Slab', serif; 
+    font-size: 50%; 
+}
+
+#deco{
+    padding: 3px;
+    background-color: #EEE0B9;
+}
+
+header {
+    text-align: left;
+    padding: 10px;
+    background-color: #BCCAAD;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 60%;
+}
+
+#homepage{
+    font-size: 90%;
+
+}
+
+nav {
+    margin-bottom: 40px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+nav input{
+    float: right;
+    padding: 12px 30px;
+    display: inline-block;
+
+}
+nav button{
+    margin-left: 10px;
+    float:right;
+    background-color: #6468D5;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.left-col {
+    float: left;
+    width: 20%;
+    padding: 15px;
+}
+
+.filter-card {
+    border: 0.2px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 5px 0 rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    color: #595959;
+    font-size: 40%;
+    border-bottom: 0.2px solid #ccc;
+}
+
+.options{
+    font-size: 80%;
+    padding: 10px;
+}
+
+.status{
+    float: left;
+    width: 50%;
+    font-size: 60%;
+}
+
+.page{
+    font-size: 50%
+    color: #595959;
+    float: right;
+    width: 40%;
+}
+
+.right-col {
+    float:left;
+    width: 70%;
+    padding: 15px;
+}
+
+.list {
+    padding: 10px;
+}
+
+.filter-row: {
+    border-bottom: 0.2px solid #ccc;
+}
+
+
+
+
+
+div.gallery {
+    font-size: 80%;
+    margin: 15px;
+    border: 0.2px solid #ccc;
+    float: left;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 5px 0 rgba(0, 0, 0, 0.1);
+/*    https://wfww.w3schools.com/css/css3_shadows.asp*/
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+
+div.price {
+    color: #ffeb3b;
+    text-align: center;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.contents{
+    margin:auto;
+    width: 80%;
+}
+
+.first-row{
+    margin-bottom: 30px;
+}
+
+div.first-row img{
+}
+
+.homepage-col{
+    float: left;
+    width: 18%;
+    padding: 30px;
+}
+
+.homepage-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .homepage-col {
+        width: 100%;
+    }
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center{
+    font-size: 200%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.center a{
+    color: white;
+}
+
+.bottom{
+    font-size: 150%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+}
+
+.bottom a{
+    color: white;
+}
+
+
+.pro-col {
+    float: left;
+    width: 35%;
+    padding: 10px;
+}
+
+.pro-colright {
+    float: right;
+    width: 20%;
+    padding: 10px;
+}
+
+.pro-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sub-pro-col {
+    float: left;
+    width: 16%;
+    padding: 5px;
+
+}
+
+.sub-pro-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.detail-list{
+    border-top: 0.2px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.detail-list h5{
+    font-weight: 700;
+    font-size: 70%;
+}
+
+/*.detail-list button{
+    border: none;
+    float: right;
+    width: 30%;
+}*/
+
+.detail-list p{
+    font-size: 60%;
+}
+
+
+.choice{
+    font-size: 60%;
+    margin-top: 10px;
+}
+
+.add{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #6468D5;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+div.price2 {
+    font-size: 60%;
+    color: #ffeb3b;
+    text-align: center;
+}
+
+div.desc2 {
+    font-size: 60%;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+div.gallery2 {
+    font-size: 80%;
+    margin: 15px;
+    border: none;
+    width: 130px;
+
+}
+
+div.gallery2:hover {
+    border: 1px solid #777;
+}
+
+div.gallery2 img {
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.container-check {
+    display: block;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 70%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-check:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-check .checkmark:after {
+    left: 6px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.bottom2{
+    font-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -300%);
+}
+
+
+
+
+

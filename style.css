@@ -85,7 +85,7 @@ h2 {
 
 .options{
     font-size: 80%;
-    padding: 10px;
+    padding-left: 30px;
 }
 
 .status{
@@ -95,7 +95,7 @@ h2 {
 }
 
 .page{
-    font-size: 50%
+    font-size: 50%;
     color: #595959;
     float: right;
     width: 40%;
@@ -110,13 +110,6 @@ h2 {
 .list {
     padding: 10px;
 }
-
-.filter-row: {
-    border-bottom: 0.2px solid #ccc;
-}
-
-
-
 
 
 div.gallery {
@@ -334,9 +327,6 @@ div.gallery2 img {
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 70%;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
 }
 
@@ -387,8 +377,6 @@ div.gallery2 img {
     height: 10px;
     border: solid white;
     border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 

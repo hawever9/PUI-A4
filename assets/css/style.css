@@ -407,7 +407,7 @@ div.gallery2 img {
 
 /*cart*/
 .cart-col{
-    float: right;
+    float: left;
     width: 35%;
     padding: 10px;
 }

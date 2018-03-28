@@ -405,42 +405,6 @@ div.gallery2 img {
     cursor: pointer;    
 }
 
-/*cart*/
-.cart-col{
-    float: right;
-    width: 35%;
-    padding: 10px;
-}
-
-.small-img{
-/*    margin-top: 5px;
-    padding-top: 0px;
-    margin-bottom: 5px;
-    padding-bottom: 0px;*/
-    width: 50px;
-    height: auto;
-/*    border-radius: 50%;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); */
-    float: left;
-}
-
-.cart-color{
-    float: left;
-    width: 15%;
-    color: green;
-}
-
-.cart-shape{
-    float: left;
-    width: 15%;
-}
-
-.cart-qty{
-    float: left;
-    width: 15%;
-}
-
-
 
 
 

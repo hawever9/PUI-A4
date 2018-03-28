@@ -76,6 +76,7 @@ $(document).ready(function() {
   if (cart === null) {
     cart = [0];
   } else {
+    //cart[0] = 0;
     $("#cart").text("cart "+ " " + cart[0].toString());
   }
 

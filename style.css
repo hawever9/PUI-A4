@@ -426,21 +426,30 @@ div.gallery2 img {
 
 .cart-color{
     float: left;
-    width: 15%;
-    color: green;
+    width: 20%;
 }
 
 .cart-shape{
     float: left;
-    width: 15%;
+    width: 20%;
 }
 
 .cart-qty{
     float: left;
-    width: 15%;
+    width: 20%;
 }
 
-
+#checkout{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #6468D5;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 
 

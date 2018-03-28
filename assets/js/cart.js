@@ -3,7 +3,7 @@ function createCurrentItemList(cart) {
   for (i = 1; i < cart.length; i++) {
     var item = cart[i];
     $("itemList").append("<li>a</li>");
-    $("#itemList").append("<li id=\"" + item.name + "\" > <img class =\"small-img\" src=\"assets/img/" + item.img + "\" alt=\"\" width=\"50\" style = \" float:left; \">" + "<div class = \"cart-color\" style = \" float:left; width: 15%; \">" + item.color + "</div>" +"<div class = \"cart-shape\" style = \" float:left; width: 15%; \">" +item.shape + "</div>" +"<div class = \"cart-qty\" style = \" float:left; width: 15%; \">" +item.qty+"</div>" + "<button class = \"delete\" style = \"float:left\">remove</button> </li>");
+    $("#itemList").append("<li id=\"" + item.name + "\" style = \"margin-bottom: 40px\"> <img class =\"small-img\" src=\"assets/img/" + item.img + "\" alt=\"\" width=\"50\" >" + "<div class = \"cart-color\" >" + item.color + "</div>" +"<div class = \"cart-shape\" >" +item.shape + "</div>" +"<div class = \"cart-qty\" >" +item.qty+"</div>" + "<button class = \"delete\" >remove</button> </li>");
     }
 }
 
@@ -15,9 +15,9 @@ function updateTotal(cart) {
     var tax = Math.round(itemTotal * 0.07);
     var all = tax + itemTotal;
 
-    $("#itemTotal").text("$" + itemTotal);
-    $("#tax").text("$" + tax);
-    $("#all").text("$" + all);
+    $("#itemTotal").text("Item Total: $" + itemTotal);
+    $("#tax").text("Tax:      $" + tax);
+    $("#all").text("Total:    $" + all);
 }
 
 
@@ -38,6 +38,7 @@ $(document).ready(function() {
   if (cart === null) {
     cart = [0];
   } else {
+    //cart[0] = 0;
     $("#cart").text("cart " + cart[0].toString());
   }
 
@@ -46,7 +47,7 @@ $(document).ready(function() {
   $(".delete").click(function() {
     var index = $(this).parent().index();
     $(this).parent().remove();
-    var deletedQty = cart[index].qty;
+    var deletedQty = cart[index+1].qty;
     cart.splice(index+1, 1);
     cart[0] -= deletedQty;
     $("#cart").text("cart " + cart[0].toString());
@@ -55,10 +56,11 @@ $(document).ready(function() {
   });
 
   
-  $("#clearAll").click(function() {
-    cart = [0];
-    localStorage.setItem("savedCart", JSON.stringify(cart));
-  });
+  // $("#clearAll").click(function() {
+  //   cart = [0];
+  //   console.log(cart);
+  //   localStorage.setItem("savedCart", JSON.stringify(cart));
+  // });
 
 
 
